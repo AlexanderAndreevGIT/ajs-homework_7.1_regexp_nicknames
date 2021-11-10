@@ -14,7 +14,6 @@ test.each([
   ('should validate username'),
   (input, expected) => {
     const result = Validator.validateUsername(input);
-    // const result = newClass.validateUsername(input);
     expect(result).toBe(expected);
   },
 );
